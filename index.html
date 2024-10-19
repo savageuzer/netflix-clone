@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"   />
+</head>
+
+<body>
+  <section>
+    <div class="banner">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5 logo-1" href="#">
+            <img src="img/netflix.svg" alt="logo">
+          </a>
+          <!-- Toggler button for mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto me-2">
+              <!-- Dropdown for language selection -->
+              <li class="nav-item dropdown">
+                <button class="btn btn-secondary dropdown-toggle button-1 me-3" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  English
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Hindi</a></li>
+                </ul>
+              </li>
+
+              <!-- Sign-in button -->
+              <li class="nav-item">
+                <a href="#" class="btn buttons me-5">Sign In</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      <div class="heading col-md-12">
+        <!-- heading -->
+        <h1 class="mt-5 head-1">Unlimited movies, TV shows and more</h1>
+        <h5 class="mt-4 head-2">Starts at ₹149. Cancel at any time.</h5>
+        <p class="mt-3 para">Ready to watch? Enter your email to create or restart your membership.</p>
+        <!-- buttons -->
+        <button class="email-address mb-2" type="button" placeholder="email-address">Email Address</button>
+        <button class="get-started">Get Started</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- SECTION-2 -->
+
+  <section class="section-2">
+    <div>
+      <div class="container">
+        <h5 class="text-white">Trending Now</h5>
+        <button class="button-india text-white me-2">India</button>
+        <button class="button-india text-white me-2">Movies</button>
+      </div>
+      <!-- images -->
+      <div class="container text-center sliders overflow-hidden col-md-12">
+        <div class="row mt-5 col-12">
+          <div class="col img-fluid">
+            <img src="img/slider-1.webp" alt="slider-1" class="hover-image mb-3">
+          </div>
+          <div class="col img-fluid">
+            <img src="img/slider-2.webp" alt="slider-2" class="hover-image mb-3">
+          </div>
+          <div class="col img-fluid">
+            <img src="img/slider-3.webp" alt="slider-3" class="hover-image mb-3">
+          </div>
+          <div class="col img-fluid">
+            <img src="img/slider-4.webp" alt="slider-4" class="hover-image mb-3">
+          </div>
+          <div class="col img-fluid">
+            <img src="img/slider-5.webp" alt="slider-5" class="hover-image mb-3">
+          </div>
+        </div>
+      </div>
+
+      <!-- cards -->
+      <div class="container">
+        <h5 class="text-white headinng mt-5">More reasons to join</h5>
+      </div>
+
+      <div class="container d-flex gap-3">
+        <div class="card-all d-flex">
+          <div class="card cards-1 mt-3" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Enjoy on your TV</h5>
+              <p class="card-text">Watch on smart TVs, PlayStation, Xbox,
+                Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-all d-flex">
+          <div class="card cards-1 mt-3" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">
+                Download your shows to watch offline</h5>
+              <p class="card-text">Watch on smart TVs, PlayStation, Xbox, Chromecast, 
+                Apple TV, Blu-ray players and more.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card-all d-flex">
+          <div class="card cards-1 mt-3" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Watch everywhere</h5>
+              <p class="card-text">Stream unlimited movies and TV shows on your phone, tablet,
+                 laptop and TV.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card-all d-flex">
+          <div class="card cards-1 mt-3" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Create profiles for kids</h5>
+              <p class="card-text">Send kids on adventures with their 
+                favourite characters in a space made just for them — free with your membership.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- faqs -->
+
+    <div class="container mt-5">
+
+      <h4 class="text-white">Frequently Asked Questions</h4>
+<!-- 1 -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header bg-black p-3">
+      <button class="accordion-button bg-black text-white button-faq" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+      aria-expanded="true" aria-controls="collapseOne">
+        What is Netflix?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        <strong>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more – on thousands of internet-connected devices.</strong>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header bg-black p-3">
+      <button class="accordion-button bg-black text-white button-faq" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" 
+      aria-expanded="false" aria-controls="collapseTwo">
+        How much does Netflix cost?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        <strong>Netflix offers several subscription plans with varying prices.</strong> You can choose a plan that suits your needs, whether you want standard definition, high definition, or ultra-high definition content.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header bg-black p-3">
+      <button class="accordion-button bg-black text-white button-faq" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" 
+      aria-expanded="false" aria-controls="collapseThree">
+        Can I watch Netflix offline?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        <strong>Yes, you can download select titles on the Netflix app for offline viewing.</strong> This feature is available on mobile devices and tablets.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header bg-black p-3">
+      <button class="accordion-button bg-black text-white button-faq" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" 
+      aria-expanded="false" aria-controls="collapseFour">
+        How do I cancel?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        <strong>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item bg-black">
+    <h2 class="accordion-header bg-black p-3">
+      <button class="accordion-button bg-black text-white button-faq" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" 
+      aria-expanded="false" aria-controls="collapseFive">
+        Is Netflix good for kids?
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-white">
+        <strong>Yes, Netflix offers a dedicated Kids section that features age-appropriate shows and movies, ensuring a safe viewing experience for children.</strong>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+
+<footer>
+  <section>
+    <div class="footer-1">
+      <div class="container">
+        <div class="heading-footer">
+
+          <h6 class="mt-4 text-white">Ready to watch? Enter your email to create or restart your membership.</h6>
+          <button class="mb-2 button-footer" type="button" placeholder="email-address">Email Address</button>
+          <button class="footer-button">Get Started</button>
+
+        </div>
+
+        <div class="container">
+          <h6 class="text-white mt-5">Questions? Call <a href="#">000-800-919-1694</a></h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        <ul class="main-footer mt-5">
+          <li class="mt-3">FAQ</li>
+          <li class="mt-3">Investor Relations</li>
+          <li class="mt-3">Privacy</li>
+          <li class="mt-3">Speed Test</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="main-footer mt-5">
+          <li class="mt-3">Help Centre</li>
+          <li class="mt-3">Jobs</li>
+          <li class="mt-3">Cookie Preferences</li>
+          <li class="mt-3">Legal Notices</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="main-footer mt-5">
+          <li class="mt-3">Account</li>
+          <li class="mt-3">Ways to Watch</li>
+          <li class="mt-3">Corporate Information</li>
+          <li class="mt-3">Only on Netflix</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="main-footer mt-5">
+          <li class="mt-3">Media Centre</li>
+          <li class="mt-3">Terms of Use</li>
+          <li class="mt-3">Contact Us</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+
+    <div class="container">
+      
+      <li class="nav-item dropdown text-center">
+        <button class="btn dropdown-toggle me-3 foot-1 mt-3" 
+        type="button" id="dropdownMenuButton"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        English
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">English</a></li>
+        <li><a class="dropdown-item" href="#">Hindi</a></li>
+      </ul>
+    </li>
+    <p class="text-white mt-2 ms-4">Netflix India</p>
+  </div>
+    
+  </section>
+</footer>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
